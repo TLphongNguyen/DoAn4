@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'normalize.css';
+body {
+	line-height: 1.5;
+	text-rendering: optimizeSpeed;
+}
+* {
+	font-family:
+		Poppins,
+		Source Sans Pro,
+		Helvetica Neue,
+		Arial,
+		sans-serif !important;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+button,
+input,
+[tabindex] {
+	outline: none;
+	border: none;
+	background: none;
+}
+label {
+	display: block;
+}
+// a[href] {
+// 	text-decoration: none;
+// }
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.ant-modal-content {
+	padding: 0 !important;
+}
+.h-comment {
+	height: calc(100% - 215px);
+}
+.ant-modal-title {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 18px !important;
+	color: #354052 !important;
+	font-weight: 700;
+}
+.ant-modal-header {
+	margin-bottom: 0 !important;
+}
+.ant-select-selector,
+.ant-input {
+	border-radius: 25px !important;
+}
+.ant-select-selector,
+.ant-select-item,
+.ant-input {
+	font-size: 11px !important;
+	line-height: 1.2 !important;
+	min-height: 0 !important;
+}
+.ant-menu-light .ant-menu-submenu-selected > .ant-menu-submenu-title {
+	color: #354052 !important;
+}
+
+.ant-menu-light .ant-menu-item-selected,
+.ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+	color: #f0564a;
+	background-color: #fafafa;
+}
+.ant-menu-title-content {
+	font-weight: 600;
+	font-size: 14px;
+}
+.ant-dropdown-menu {
+	width: 322px !important;
+	height: fit-content;
+}
